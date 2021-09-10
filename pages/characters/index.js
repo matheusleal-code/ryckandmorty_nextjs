@@ -2,7 +2,7 @@ import Character from '../../components/character/index'
 import styles from './styles.module.css'
 import { faTimes, faArrowAltCircleLeft, faArrowAltCircleRight } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { api } from '../services/api'
+import { api } from '../../services/api'
 import { useEffect, useState } from 'react'
 import ClipLoader from 'react-spinners/ClipLoader';
 

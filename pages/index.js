@@ -4,8 +4,6 @@ import { useEffect, useState } from 'react'
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
 
-import { api } from './services/api'
-
 export default function Home({ character, info }) {
   return (
     <div className={styles.container}>
