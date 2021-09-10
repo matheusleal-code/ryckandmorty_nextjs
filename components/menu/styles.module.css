@@ -1,0 +1,74 @@
+.headerContainer{
+    background-color: rgb(57, 74, 35);
+
+    position: fixed;
+
+    width: 100%;
+    top: 0;
+    height: 41px;
+  }
+  
+  .menuMobile {
+    width:270px;
+    height:100%;
+    background-color: rgb(57, 74, 35);
+    position: fixed;
+    overflow: hidden;
+    overflow-y: auto;
+    transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s; 
+    -moz-transition-duration: 0.3s;
+  }
+  
+  .menuMobile ul li {
+    font-size: 17px;
+    display: block;
+    border-bottom: 1px solid rgba(0,0,0,.1)
+  }
+  
+  .menuMobile ul li a {
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .menuMobile ul li a:hover {
+    background-color: rgba(0,0,0,.1);
+  }
+  
+  .btnMenu {
+    width: 45px;
+    height: 40px; 
+    position: absolute;
+    padding: 10px;
+    background-color: rgb(57, 74, 35);
+    cursor: pointer;
+    transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s; 
+    -moz-transition-duration: 0.3s;
+  }
+  
+  .btnMenu span {
+    height: 3px;
+    display: block;
+    margin-bottom: 5px;
+    background-color: #526E2DFF;
+  }
+  
+  .menuMobile {transform: translateX(-270px);}
+  .btnMenu {transform: translateX(0);}
+  
+  .btnMenuActive .menuMobile {
+    transform: translateX(0);
+  }
+  
+  .btnMenuActive .btnMenu{
+    background-color: #fff;
+  }
+  
+  .btnMenuActive .btnMenu {
+    transform: translateX(270px);
+    left: 0px;
+  }
+  

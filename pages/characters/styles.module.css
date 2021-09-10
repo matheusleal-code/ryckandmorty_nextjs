@@ -1,0 +1,97 @@
+.container{
+    margin-top: 40px;
+    background-color: #24282f;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.searchContainer{
+    width: 330px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.searchItens{
+    display: flex;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 1rem;
+    width: 330px;
+
+    padding: 0.4rem;
+}
+
+.searchContainer input{
+    width: 100%;
+    border-radius: 5px 0px 0px 0px;
+    border: none;
+    outline: none;
+}
+
+.searchContainer button{
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+    background-color: transparent;
+}
+
+.iconClose{
+    border: none;
+    outline: none;
+    color: rgb(216, 212, 212);
+    background-color: none;
+    width: 10px;
+}
+
+.charactersContainer{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerChangePages{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: white;
+}
+
+.containerChangePages button{
+    padding: 1rem;
+    border: none;
+    margin: 0 2rem 0 2rem;    
+    background-color:transparent;
+}
+
+.containerError{
+    background-color: white;
+    color: gray;
+    padding: 1rem;
+
+    text-align: center;
+}
+
+.containerLoader{
+  position: fixed;
+  top: 50%;
+  color: white;
+  width: 100%;
+  z-index: 999;
+}
+
+.containerLoader div{
+    width: 300px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
